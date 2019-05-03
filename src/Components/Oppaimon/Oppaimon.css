@@ -1,0 +1,38 @@
+.Oppaimon{
+    position: absolute;
+    height: auto;
+}
+
+.Stats{
+    position: absolute;
+    width: 45%;
+    height: auto;
+}
+.MyBar{
+    position: absolute;
+    width: 35%;
+    border-radius: 100px !important;
+    background-color: rgb(39, 37, 37);
+    box-shadow: 0 0 0 1.5px white;
+}
+.White-border{
+    background-color: red;
+}
+.OppaimonText{
+    position: absolute;
+    font-family: 'Norwester';
+    font-size: 1.5em;
+}
+.OppaimonLvl{
+    position: absolute;
+    font-family: 'Norwester';
+    font-size: 1.5em;
+    color: #e7a500;
+}
+#hp{
+    background-color: #00f200;
+}
+#exp{
+    background-color: #43c1ff;
+    width: 75%;
+}

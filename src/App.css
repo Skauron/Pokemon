@@ -1,0 +1,47 @@
+.App-header {
+  background-image: url("/Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.UI{
+
+}
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@font-face{
+  font-family: 'Animal';
+  font-style: normal;
+  font-weight: 400;
+  src: local('/Fonts/BlackAnimal2.ttf');
+  src: url('/Fonts/BlackAnimal.otf') format('opentype'),
+      url('/Fonts/BlackAnimal2.ttf') format('truetype');
+}
+@font-face{
+  font-family: 'Karma';
+  font-style: normal;
+  font-weight: 400;
+  src: local('/Fonts/karma.ttf');
+  src: url('/Fonts/karma.ttf') format('truetype');
+}
+@font-face{
+  font-family: 'Norwester';
+  font-style: normal;
+  font-weight: 400;
+  src: local('/Fonts/norwester.otf');
+  src: url('/Fonts/norwester.otf') format('opentype');
+}
