@@ -29,7 +29,7 @@ class App extends Component {
 
   //Method run before a component update
   componentDidUpdate() {
-    if (this.state.OppaimonEnemigo.nuLife == 0) {
+    if (this.state.OppaimonEnemigo.nuLife === 0) {
       console.log("Yey ganaste perra");
     }
   }
@@ -49,8 +49,8 @@ class App extends Component {
       this.setState({ OppaimonEnemigo: Oppaiaux });
     } else {
       if (this.state.OppaimonEnemigo.nuLife !== 0) {
-        var Oppaiaux = this.state.OppaimonAliado;
-        var daño = (power) - Oppaiaux.nuDf;
+        Oppaiaux = this.state.OppaimonAliado;
+        daño = (power) - Oppaiaux.nuDf;
         if (daño <= 0) {
           daño = 10;
         }

@@ -26,36 +26,37 @@ export default class Oppaimon extends Component {
   componentWillMount() {
     switch (this.props.bando) {
       case "Aliado":
-        this.state.UI = "UI/Info_Base_A.png";
-        this.state.bottomUI = "150px";
-        this.state.rightUI = "10px";
-        this.state.widthIMG = "25%";
-        this.state.HPBarPosX = "60px";
-        this.state.HPBarPosY = "220px";
-        this.state.textX = "439px";
-        this.state.textY = "230px";
-        this.state.LvltextX = "100px";
-        this.state.LvltextY = "230px";
-        this.state.bottomIMG = "50px";
-        this.state.rightIMG = "750px";
-        this.state.lvl = "Lvl 45";
+        this.setState({UI: "UI/Info_Base_A.png"});
+        this.setState({bottomUI: "150px"});
+        this.setState({rightUI: "10px"});
+        this.setState({widthIMG: "25%"});
+        this.setState({HPBarPosX: "60px"});
+        this.setState({HPBarPosY: "220px"});
+        this.setState({textX: "439px"});
+        this.setState({textY: "230px"});
+        this.setState({LvltextX: "100px"});
+        this.setState({LvltextY: "230px"});
+        this.setState({bottomIMG: "50px"});
+        this.setState({rightIMG: "750px"});
+        this.setState({lvl: "Lvl 45"});
         break;
       case "Enemigo":
-        this.state.UI = "UI/Info_Base_E.png";
-        this.state.bottomUI = "460px";
-        this.state.rightUI = "750px";
-        this.state.widthIMG = "30%";
-        this.state.HPBarPosX = "820px";
-        this.state.HPBarPosY = "530px";
-        this.state.Display = "none";
-        this.state.textX = "1170px";
-        this.state.textY = "535px";
-        this.state.LvltextX = "800px";
-        this.state.LvltextY = "535px";
-        this.state.bottomIMG = "200px";
-        this.state.rightIMG = "250px";
-        this.state.lvl = "Lvl 39";
+        this.setState({UI: "UI/Info_Base_E.png"});
+        this.setState({bottomUI: "460px"});
+        this.setState({rightUI: "750px"});
+        this.setState({widthIMG: "30%"});
+        this.setState({HPBarPosX: "820px"});
+        this.setState({HPBarPosY: "530px"});
+        this.setState({Display: "none"});
+        this.setState({textX: "1170px"});
+        this.setState({textY: "535px"});
+        this.setState({LvltextX: "800px"});
+        this.setState({LvltextY: "535px"});
+        this.setState({bottomIMG: "200px"});
+        this.setState({rightIMG: "250px"});
+        this.setState({lvl: "Lvl 39"});
         break;
+        default:
     }
   }
 
@@ -102,6 +103,7 @@ export default class Oppaimon extends Component {
           src={this.state.UI}
           className="rounded float Stats"
           style={StyleStats}
+          alt="UI"
         />
         <div className="progress MyBar" style={StyleHpBar}>
           <div
