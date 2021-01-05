@@ -5,7 +5,7 @@
   "homepage": "https://Skauron.github.io/Pokemon",
   "dependencies": {
     "@material-ui/core": "^3.9.3",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
